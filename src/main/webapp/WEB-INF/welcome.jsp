@@ -16,6 +16,13 @@
 
         <p>You should be logged in now</p>
 
+        <h3>Itemlist</h3>
+        <ul>
+        <c:forEach var="items" items="${requestScope.itemList}">
+            <li>${item.name} (${item.created})</li>
+        </c:forEach>
+        </ul>
+
         <c:if test="${sessionScope.user != null}">
             <p>You are logged in with the role of "${sessionScope.user.role}".</p>
         </c:if>

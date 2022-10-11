@@ -1,6 +1,5 @@
 package dat.backend.model.persistence;
 
-import com.sun.tools.javac.jvm.Items;
 import dat.backend.model.entities.Item;
 
 import java.sql.*;
