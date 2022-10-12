@@ -5,18 +5,13 @@
 
 <t:fourthingsplus_template>
     <jsp:attribute name="header">
-         Four Things Plus
+       About Four Things Plus
     </jsp:attribute>
 
     <jsp:body>
 
-        <form action="login" method="post">
-            <label for="username">Username: </label>
-            <input type="text" id="username" name="username"/>
-            <label for="password">Password: </label>
-            <input type="password" id="password" name="password"/>
-            <input type="submit"  value="Log in"/>
-        </form>
+        <h3>About this website</h3>
+        <p>Dette website er lavet på 2. semester, efteråret 2022.</p>
 
     </jsp:body>
 
