@@ -10,7 +10,7 @@
 
     <jsp:body>
 
-        <h3>About this website</h3>
+        <h3>About Four Things Plus</h3>
         <p>Dette website er lavet på 2. semester, efteråret 2022.</p>
 
     </jsp:body>

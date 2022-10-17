@@ -27,6 +27,7 @@
                             <td>${item.name} (${item.created})</td>
                             <td>
                                 <button formaction="done" name="item_id" value="${item.id}">Done</button>
+                                <button formaction="editform" name="item_id" value="${item.id}">Edit</button>
                             </td>
                         </tr>
                     </c:if>
